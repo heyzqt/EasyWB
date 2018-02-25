@@ -92,7 +92,7 @@ public class WeiboDBHelper extends SQLiteOpenHelper {
 				BloggerColumns.FOLLOWER + " INTEGER," +
 				BloggerColumns.FOLLOWING + " INTEGER);");
 
-		//creat4e table send
+		//create table send
 		db.execSQL("CREATE TABLE " + Tables.Send + "(" + BloggerColumns._ID +
 				" INTEGER PRIMARY KEY AUTOINCREMENT," +
 				SendColumns.BLOGGERID + " TEXT," +
