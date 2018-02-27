@@ -1,8 +1,8 @@
 package com.heyzqt.easywb.base;
 
-import android.app.Activity;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.v7.app.AppCompatActivity;
 
 import com.heyzqt.easywb.WeiboApplication;
 
@@ -10,7 +10,7 @@ import com.heyzqt.easywb.WeiboApplication;
  * Created by heyzqt on 2018/2/23.
  */
 
-public abstract class BaseActivity extends Activity {
+public abstract class BaseActivity extends AppCompatActivity {
 
 	protected WeiboApplication mApplication;
 
