@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">EasyWB</string>
+    <string name="drawer_settings">设置</string>
+    <string name="drawer_about">关于</string>
+    <string name="drawer_opinion">意见反馈</string>
+    <string name="drawer_reward">赞赏</string>
 </resources>
