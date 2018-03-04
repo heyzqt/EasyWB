@@ -52,4 +52,12 @@ public class Blogger {
 	 * blogger's follower count
 	 */
 	public int follower;
+
+	@Override
+	public String toString() {
+		return "Blogger = [ _ID = " + _ID + ",bloggerID = " + bloggerID + ",name = " + name + ","
+				+ "sex = " + sex + ",homeUrl = " + homeUrl + ",avatarUrl = " + avatarUrl
+				+ ",isVerified = "
+				+ isVerified + ",following = " + following + ",follower = " + follower + "]";
+	}
 }

@@ -8,6 +8,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.heyzqt.easywb.R;
+import com.heyzqt.easywb.util.FileUtil;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -24,6 +25,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 		transaction.commit();
 
 		initView();
+
+		FileUtil.getJSONFile(this, "1259110474.json");
 	}
 
 	private void initView() {
